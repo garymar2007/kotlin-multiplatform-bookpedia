@@ -2,6 +2,7 @@ package com.plcoding.bookpedia.book.presentation.book_list
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
@@ -45,8 +46,8 @@ fun BookListScreen(
     val keyboardController = LocalSoftwareKeyboardController.current
     Column(
         modifier = Modifier
-            .fillMaxWidth()
-            .background(Color.Red)
+            .fillMaxSize()
+            .background(DarkBlue)
             .statusBarsPadding(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
